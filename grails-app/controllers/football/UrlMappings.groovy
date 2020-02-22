@@ -8,6 +8,7 @@ class UrlMappings {
                 // apply constraints here
             }
         }*/
+        get "/standings"(controller:"Standings",action:"standingbyTeamLeagugeCountry")
        get "/teams"(controller:"team",action:"getAll")
         "/"(view:"/index")
         "500"(view:'/error')
