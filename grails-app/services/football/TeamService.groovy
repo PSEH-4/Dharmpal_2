@@ -6,6 +6,7 @@ import grails.transaction.Transactional
 class TeamService {
 
     def serviceMethod() {
+        return ["name":"Dharmpal"]
 
     }
 }

@@ -8,7 +8,7 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-
+        "/teams"(controller:"teamController",action:"getAll")
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
