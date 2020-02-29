@@ -40,6 +40,7 @@ class StandingsService {
             println it
             if (it.team_name == team_name )result.add(it)
         }
+        if (result.size()==0)result.add(["Message":"No result found"])
         return result
 
     }
